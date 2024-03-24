@@ -1,0 +1,5 @@
+pandas
+requests
+pandasql
+aiohttp
+matplotlib
