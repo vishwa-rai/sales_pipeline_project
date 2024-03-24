@@ -5,7 +5,7 @@ import aiohttp
 import asyncio
 import sqlite3
 import matplotlib.pyplot as plt
-import sys
+# import sys
 
 pd.set_option('display.max_columns', None)
 
@@ -107,7 +107,7 @@ if __name__ == '__main__':
     # print("\n Sales user: ", user_sales_merged.columns)
 
     # Run the event loop
-    weather_data_list = asyncio.run(process_data(unique_coord[:1], API_KEY))
+    weather_data_list = asyncio.run(process_data(unique_coord, API_KEY))
     weather_df = pd.DataFrame(weather_data_list)
 
     weather_df = weather_df[['coord', 'main', 'weather']]
