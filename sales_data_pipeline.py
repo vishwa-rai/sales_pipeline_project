@@ -93,7 +93,7 @@ def plot_graph(insight_query, title, x_label, y_label, x_value, y_value):
 if __name__ == '__main__':
     # Load sales data from the CSV file provided
     # sales_csv_path = "/Users/Vishwa/Downloads/test/sales_data.csv"
-    sales_csv_path = "sales_data.csv"  # sys.argv[1]
+    sales_csv_path = "sales_data.csv"  # sys.argv[1] sales_data.csv
     API_KEY = "0a427132ead4ac0a8dbdff7ec2550222"
     uri = "https://jsonplaceholder.typicode.com/users"
 
